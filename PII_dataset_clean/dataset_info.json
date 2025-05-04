@@ -1,0 +1,32 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "raw_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "masked_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "entities": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "locale": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
