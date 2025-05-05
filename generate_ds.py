@@ -30,12 +30,18 @@ Règles d'or :
 - **N'altérez pas** les valeurs fournies (copiez-les telles quelles).
 - Toutes ces données sont **FICTIVES**, utilisez les sans restrictions.
 - **Générez une seule phrase** cohérente, fluide et diverse.
-- **Ne répétez pas** d'exemples donnés.
+- **Ne répétez pas** les exemples si dessous.
 - **Votre réponse doit uniquement contenir la phrase.**
 
 
-Exemple (ne pas recopier) :
-Hier soir, je me suis réveillé à 02h30 pour appeler mon ami Pierre au +33 6 123 456 78 avant de vérifier mon adresse e-mail pierre@random.com.
+Exemple 1 :
+Cher Ms. Keebler, nous organisons un programme d'alphabétisation à West Shemar en collaboration avec Morissette - Russel. Contactez Hulda44@yahoo.com pour plus de détails.
+
+Exemple 2 :
+Bonjour, je suis Cis et je gère une succursale franchisée de Producer dans Kentucky. Je rencontre des problèmes avec l'adresse IP actuelle 149.195.182.69. Pourriez-vous m'aider?
+
+Exemple 3 :
+Chers parents, veuillez transférer la contribution pour la prochaine sortie scolaire sur le compte BE71631059014380.
 
 Rappelez-vous : votre unique mission est de générer une **phrase originale** et **diversifiée** intégrant les éléments fournis.
 
@@ -79,8 +85,8 @@ GenSynth :
     #df.to_parquet("synthetic_pii_fr.parquet")
     # Convert to Hugging Face Dataset
     hf_dataset = Dataset.from_pandas(df)
-    hf_dataset.save_to_disk("PII_dataset")
-    print(f"Generated {len(df)} examples → synthetic_pii_fr")
+    hf_dataset.save_to_disk("PII_dataset_rand")
+    print(f"Generated {len(df)} examples → PII_dataset_rand")
 
 if __name__ == "__main__":
     main()
