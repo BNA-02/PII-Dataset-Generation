@@ -8,14 +8,16 @@ from pii_utils import sample_pii, mask_entities
 from datasets import Dataset
 
 def main(n_samples: int = 1000):
-    # 1) Initialize your local Ollama model (make sure it's running: `ollama serve`)
-    llm = Ollama(model="llama3.2")  
+    print("🔁 Initializing model...")
+    llm = Ollama(model="llama3.2")
+
     # List of all possible PII fields
     all_labels = [
         "PERSON", "PHONE_NUMBER", "EMAIL_ADDRESS",
         "CREDIT_CARD", "IBAN_CODE", "IP_ADDRESS",
         "LOCATION", "DATE_TIME"
     ]
+
     records = []
 
     for i in range(n_samples):
@@ -43,23 +45,13 @@ def main(n_samples: int = 1000):
         - Utilisez les éléments suivants :
         {info_block}
 
-        Exemple 1 :
-        Cher Ms. Keebler, nous organisons un programme d'alphabétisation à West Shemar en collaboration avec Morissette - Russel. Contactez Hulda44@yahoo.com pour plus de détails.
-
-        Exemple 2 :
-        Bonjour, je suis Cis et je gère une succursale franchisée de Producer dans Kentucky. Je rencontre des problèmes avec l'adresse IP actuelle 149.195.182.69. Pourriez-vous m'aider?
-
-        Exemple 3 :
-        Chers parents, veuillez transférer la contribution pour la prochaine sortie scolaire sur le compte BE71631059014380.
-
-        Rappelez-vous : votre unique mission est de générer une **phrase originale** et **diversifiée** intégrant les éléments fournis.
-
-        USER: Donne moi une phrase avec les informations **100% FICTIVES** si dessus en respectant les instructions
         GenSynth :
         """
+
         prompt = PromptTemplate(template=prompt_text, input_variables=sampled_labels)
         chain = LLMChain(llm=llm, prompt=prompt)
 
+        # 3. Run the LLM to generate the sentence
         raw_with_placeholders = chain.run(**pii_subset)
         raw_text = raw_with_placeholders.strip()
         print(f"📝 Raw generated sentence: {raw_text}")
@@ -85,9 +77,9 @@ def main(n_samples: int = 1000):
     # 6. Save everything
     df = pd.DataFrame(records)
     hf_dataset = Dataset.from_pandas(df)
-    hf_dataset.save_to_disk("PII_dataset_rand")
+    hf_dataset.save_to_disk("PII_dataset_gen")
 
-    print(f"\n✅ Done! Generated {len(df)} examples → PII_dataset_rand")
+    print(f"\n✅ Done! Generated {len(df)} examples → PII_dataset_gen")
 
 if __name__ == "__main__":
     main()
