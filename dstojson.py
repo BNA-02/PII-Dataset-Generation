@@ -25,7 +25,7 @@ dataset = load_from_disk(args.dataset)
 data = dataset.to_list() if hasattr(dataset, 'to_list') else [dict(row) for row in dataset]
 
 # 4. Write as a single JSON array
-with open(args.output_file, "w", encoding="utf-8") as f:
+with open(args.output, "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
 print(f"✅ Clean dataset saved with {len(dataset)} rows (from original {len(dataset)} rows).")

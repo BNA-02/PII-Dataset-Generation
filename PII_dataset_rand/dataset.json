@@ -1,0 +1,802 @@
+[
+  {
+    "id": "63c797c6-1d70-4f0c-950f-9ab778c8f7ff",
+    "raw_text": "Roger Le Neveu, un passionné des nouvelles technologies, s'apprête à lancer son propre programme de développement de logiciels pour les particuliers et les entreprises, depuis son bureau situé dans la célèbre succursale 99.223.45.117 de la société Producer, basée à West Shemar, en Kentucky.",
+    "masked_text": "<PERSON>, un passionné des nouvelles technologies, s'apprête à lancer son propre programme de développement de logiciels pour les particuliers et les entreprises, depuis son bureau situé dans la célèbre succursale <IP_ADDRESS> de la société Producer, basée à West Shemar, en Kentucky.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [0, 14], \"raw\": \"Roger Le Neveu\"}, {\"type\": \"IP_ADDRESS\", \"span\": [220, 233], \"raw\": \"99.223.45.117\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "eae870cb-9b60-4805-85ba-06b2cfa758a5",
+    "raw_text": "Cher Monsieur Delmas, nous avons reçu votre carte de crédit 675900013318 pour payer la facture de votre abonnement premium au mois de mars 2025. Pour plus d'informations sur l'utilisation de ce nouveau plan, veuillez contacter xdelmas@example.net à 14/03/2025 02:56:36.",
+    "masked_text": "Cher Monsieur Delmas, nous avons reçu votre carte de crédit <CREDIT_CARD> pour payer la facture de votre abonnement premium au mois de mars 2025. Pour plus d'informations sur l'utilisation de ce nouveau plan, veuillez contacter <EMAIL_ADDRESS> <DATE_TIME>.",
+    "entities": "[{\"type\": \"EMAIL_ADDRESS\", \"span\": [227, 246], \"raw\": \"xdelmas@example.net\"}, {\"type\": \"CREDIT_CARD\", \"span\": [60, 72], \"raw\": \"675900013318\"}, {\"type\": \"DATE_TIME\", \"span\": [247, 268], \"raw\": \"à 14/03/2025 02:56:36\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "30f251a8-c696-4cf0-9945-2fe5dc188ce6",
+    "raw_text": "Cher Camille Carlier de Lejeune, nous avons créé un compte PayPal fictif pour vous : paypale78@hotmail.com. Veuillez vérifier votre adresse IP actuelle 186.93.205.60 et contacter-nous pour obtenir les détails du paiement.",
+    "masked_text": "Cher <PERSON>, nous avons créé un compte PayPal fictif pour vous : paypale78@hotmail.com. Veuillez vérifier votre adresse IP actuelle <IP_ADDRESS> et contacter-nous pour obtenir les détails du paiement.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [5, 31], \"raw\": \"Camille Carlier de Lejeune\"}, {\"type\": \"IP_ADDRESS\", \"span\": [152, 165], \"raw\": \"186.93.205.60\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "a7545f75-036e-4572-a695-513f036f8e62",
+    "raw_text": "Cher Mr. Le Ledoux, nous avons organisé un atelier de formation aux logiciels de synthèse audio à Lille, le 15 mars prochain, dans le cadre d'un partenariat entre Morissette - Russel et l'Université de Lorraine. Contactez Tristan.Le.Ledoux@outlook.com pour obtenir plus de détails.",
+    "masked_text": "Cher Mr. Le Ledoux, nous avons organisé un atelier de formation aux logiciels de synthèse audio à Lille, le 15 mars prochain, dans le cadre d'un partenariat entre Morissette - Russel et l'Université de Lorraine. Contactez Tristan.Le.Ledoux@outlook.com pour obtenir plus de détails.",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "591cf03f-8d2e-4ec8-8499-5f48a2fe3b03",
+    "raw_text": "Je ne peux pas fournir des informations personnelles réelles, telles que un numéro de téléphone ou une carte de crédit. Puis-je vous aider avec autre chose ?",
+    "masked_text": "Je ne peux pas fournir des informations personnelles réelles, telles que un numéro de téléphone ou une carte de crédit. Puis-je vous aider avec autre chose ?",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "92b19b17-e1e5-4089-b428-736d5b40298f",
+    "raw_text": "Veuillez trouver ci-dessous une phrase cohérente, fluide et diverse contenante les informations fournies : \n\nLe conseiller financier de M. Laurent, propriétaire du magasin \"Les délices de Legendre-sur-Mer\", a décidé d'ouvrir un compte bancaire offshore au France pour le paiement des factures et du prêt imposé par sa société de crédit. Le 07/03/2025 à 05:20:03, ce conseiller financier transféra automatiquement l'IBAN code FR4534713522783593255926939 en banque détaillant les factures et le prêt avec un taux d'intérêt élevé de 15% pour une durée de 3 ans. Ce dernier a décidé d'établir ses bureaux dans l'immobilier situé à 964, chemin Martine Lacombe, 20639 Legendre-sur-Mer qui devraient être rénovés avant le 07/03/2025 pour accueillir les nouveaux collaborateurs.",
+    "masked_text": "Veuillez trouver ci-dessous une phrase cohérente, fluide et diverse contenante les informations fournies : \n\nLe conseiller financier de M. Laurent, propriétaire du magasin \"Les délices de Legendre-sur-Mer\", a décidé d'ouvrir un compte bancaire offshore au France pour le paiement des factures et du prêt imposé par sa société de crédit. Le 07/03/2025 à 05:20:03, ce conseiller financier transféra automatiquement l'IBAN code <IBAN_CODE> en banque détaillant les factures et le prêt avec un taux d'intérêt élevé de 15% pour une durée de 3 ans. Ce dernier a décidé d'établir ses bureaux dans l'immobilier situé à <LOCATION> qui devraient être rénovés avant le 07/03/2025 pour accueillir les nouveaux collaborateurs.",
+    "entities": "[{\"type\": \"IBAN_CODE\", \"span\": [425, 452], \"raw\": \"FR4534713522783593255926939\"}, {\"type\": \"LOCATION\", \"span\": [627, 678], \"raw\": \"964, chemin Martine Lacombe, 20639 Legendre-sur-Mer\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "5007a7d5-924b-4aa6-a3cc-f57f47082372",
+    "raw_text": "Cher Gabriel Auger, nous avons trouvé le compte bancaire FR8827071787726648512199961 associé à votre identité et il est actif pour un montant de 341389193579310 euros. Veuillez confirmer la validité de ces informations via le numéro de téléphone 08 98 79 22 19.",
+    "masked_text": "Cher <PERSON>, nous avons trouvé le compte bancaire <IBAN_CODE> associé à votre identité et il est actif pour un montant de <CREDIT_CARD> euros. Veuillez confirmer la validité de ces informations via le numéro de téléphone 08 98 79 22 19.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [5, 18], \"raw\": \"Gabriel Auger\"}, {\"type\": \"CREDIT_CARD\", \"span\": [145, 160], \"raw\": \"341389193579310\"}, {\"type\": \"IBAN_CODE\", \"span\": [57, 84], \"raw\": \"FR8827071787726648512199961\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "7c6269a2-08a0-419c-8219-793b9b176e10",
+    "raw_text": "Cher Étienne de Carre, vous avez été contacté par notre équipe pour organiser un atelier d'alphabétisation dans votre succursale de West Shemar le 01/03/2025 à 19:57:23. Veuillez contacter Hulda44@yahoo.com pour plus de détails sur les arrangements de transport.",
+    "masked_text": "Cher <PERSON>, vous avez été contacté par notre équipe pour organiser un atelier d'alphabétisation dans votre succursale de West Shemar le 01/03/2025 à 19:57:23. Veuillez contacter Hulda44@yahoo.com pour plus de détails sur les arrangements de transport.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [5, 21], \"raw\": \"Étienne de Carre\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "f46857f8-a7b3-4e37-9929-1e20de057513",
+    "raw_text": "Cher Monsieur Thibault, nous avons reçu un appel téléphonique de votre société, Étoiles d'Or, concernant la livraison de matériel informatique à l'adresse 42 rue de la République, 75018 Paris. Pour plus de précisions, veuillez contacter Mme Sophie Hache at sophie.hache@ectoprice.com.",
+    "masked_text": "Cher Monsieur Thibault, nous avons reçu un appel téléphonique de votre société, Étoiles d'Or, concernant la livraison de matériel informatique à l'adresse 42 rue de la République, 75018 Paris. Pour plus de précisions, veuillez contacter Mme Sophie Hache at sophie.hache@ectoprice.com.",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "a44465bd-669e-4a2f-a27e-59bb3fb6711a",
+    "raw_text": "Cher Monsieur Thibault, nous avons organisé un atelier de programmation informatique à Grenoble avec la participation de Synthia - Dubois. Contactez son e-mail professionnel pour plus d'informations sur l'utilisation prévue de l'adresse IP 201.189.236.185 dans notre projet de gestion des données.",
+    "masked_text": "Cher Monsieur Thibault, nous avons organisé un atelier de programmation informatique à Grenoble avec la participation de Synthia - Dubois. Contactez son e-mail professionnel pour plus d'informations sur l'utilisation prévue de l'adresse IP <IP_ADDRESS> dans notre projet de gestion des données.",
+    "entities": "[{\"type\": \"IP_ADDRESS\", \"span\": [240, 255], \"raw\": \"201.189.236.185\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "b39a40c4-9dec-4531-9902-f52a17dbe32a",
+    "raw_text": "Cher Monsieur Laurent, nous avons identifié un problème technique avec votre compte bancaire FR3597377996985799801329110, votre IBAN CODE. Veuillez vérifier que vous avez correctement fourni vos informations de sécurité pour éviter tout accès non autorisé à votre compte.",
+    "masked_text": "Cher Monsieur Laurent, nous avons identifié un problème technique avec votre compte bancaire <IBAN_CODE>, votre IBAN CODE. Veuillez vérifier que vous avez correctement fourni vos informations de sécurité pour éviter tout accès non autorisé à votre compte.",
+    "entities": "[{\"type\": \"IBAN_CODE\", \"span\": [93, 120], \"raw\": \"FR3597377996985799801329110\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "73d0da09-921d-4067-be8b-6de6dd3bf505",
+    "raw_text": "\"Nous avons envoyé un courrier électronique à groscorinne@example.com pour vous informer que votre carte de crédit a été bloquée en raison d'activités suspectes.\"",
+    "masked_text": "\"Nous avons envoyé un courrier électronique à <EMAIL_ADDRESS> pour vous informer que votre carte de crédit a été bloquée en raison d'activités suspectes.\"",
+    "entities": "[{\"type\": \"EMAIL_ADDRESS\", \"span\": [46, 69], \"raw\": \"groscorinne@example.com\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "74dbfc22-c464-40d4-8421-3d77e000d864",
+    "raw_text": "Cher M. Boucicaut, le 24/05/2024 03:08:37 a marqué un tournant crucial dans notre stratégie marketing, avec l'ajout d'une nouvelle ligne de produits électroniques sur notre site web dédié à Producer. Veuillez contacter Hulda46@tuenti.com pour obtenir les détails techniques nécessaires.",
+    "masked_text": "Cher M. Boucicaut, <DATE_TIME> marqué un tournant crucial dans notre stratégie marketing, avec l'ajout d'une nouvelle ligne de produits électroniques sur notre site web dédié à Producer. Veuillez contacter Hulda46@tuenti.com pour obtenir les détails techniques nécessaires.",
+    "entities": "[{\"type\": \"DATE_TIME\", \"span\": [19, 43], \"raw\": \"le 24/05/2024 03:08:37 a\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "1731aa69-aa4f-4e40-95d1-a56b959cd9d4",
+    "raw_text": "\"Les résidents de la région du Nord-Est de France sont invités à participer au concours annuel de musique 'Melodies et Rhythmes' organisé par l'IBAN CODE FR1570155748050628133508898, pour lequel un crédit card '3507221171599784' sera remis aux trois premes. Pour plus d'informations, appelez le numéro de téléphone +33 5 45 22 91 15.\"",
+    "masked_text": "\"Les résidents de la région du Nord-Est de France sont invités à participer au concours annuel de musique 'Melodies et Rhythmes' organisé par l'IBAN CODE <IBAN_CODE>, pour lequel un crédit card '<CREDIT_CARD>' sera remis aux trois premes. Pour plus d'informations, appelez le numéro de téléphone <PHONE_NUMBER>.\"",
+    "entities": "[{\"type\": \"PHONE_NUMBER\", \"span\": [315, 332], \"raw\": \"+33 5 45 22 91 15\"}, {\"type\": \"CREDIT_CARD\", \"span\": [211, 227], \"raw\": \"3507221171599784\"}, {\"type\": \"IBAN_CODE\", \"span\": [154, 181], \"raw\": \"FR1570155748050628133508898\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "27be9a7a-8a09-46eb-8ca2-b9240c750790",
+    "raw_text": "Cher Mr. Leblanc, nous avons organisé un événement de bienfaisance pour soutenir la recherche sur les énergies renouvelables à Lorient, en collaboration avec l'équipe de Jean-Luc32@outlook.com. Pour obtenir plus d'informations, n'hésitez pas à contacter 01 69 10 60 23.",
+    "masked_text": "Cher Mr. Leblanc, nous avons organisé un événement de bienfaisance pour soutenir la recherche sur les énergies renouvelables à Lorient, en collaboration avec l'équipe de Jean-Luc32@outlook.com. Pour obtenir plus d'informations, n'hésitez pas à contacter <PHONE_NUMBER>.",
+    "entities": "[{\"type\": \"PHONE_NUMBER\", \"span\": [254, 268], \"raw\": \"01 69 10 60 23\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "e02a7504-0b29-4697-b0de-77666bea5bcb",
+    "raw_text": "Cher Mr. Thompson, nous avons organisé un événement de collecte de fonds pour la nouvelle école de musique à Springdale et votre carte de crédit 3521552019983109 a été sélectionnée pour une donation généreuse.",
+    "masked_text": "Cher Mr. Thompson, nous avons organisé un événement de collecte de fonds pour la nouvelle école de musique à Springdale et votre carte de crédit <CREDIT_CARD> a été sélectionnée pour une donation généreuse.",
+    "entities": "[{\"type\": \"CREDIT_CARD\", \"span\": [145, 161], \"raw\": \"3521552019983109\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "a6aab5f5-332e-4056-a470-78e907cfa1e7",
+    "raw_text": "\"Nous avons reçu un courriel de Monsieur Étienne Leblanc concernant des problèmes techniques liés à son PC à 92.148.108.117, il a mentionné que la date et l'heure du problème étaient les 16 octobre 2024 à 04:58:35, ce qui a nécessité une intervention urgente de notre équipe d'assistance technique. La résolution du problème s'est faite sur place grâce aux compétences d'un technicien qualifié installé dans la nouvelle succursale de Morissette-Russel, située à 25, rue Lebreton, 53484 Sainte Valentinedan.\"",
+    "masked_text": "\"Nous avons reçu un courriel de Monsieur Étienne Leblanc concernant des problèmes techniques liés à son PC à <IP_ADDRESS>, il a mentionné que la date et l'heure du problème étaient les <DATE_TIME>, ce qui a nécessité une intervention urgente de notre équipe d'assistance technique. La résolution du problème s'est faite sur place grâce aux compétences d'un technicien qualifié installé dans la nouvelle succursale de Morissette-Russel, située à <LOCATION>.\"",
+    "entities": "[{\"type\": \"IP_ADDRESS\", \"span\": [109, 123], \"raw\": \"92.148.108.117\"}, {\"type\": \"LOCATION\", \"span\": [462, 505], \"raw\": \"25, rue Lebreton, 53484 Sainte Valentinedan\"}, {\"type\": \"DATE_TIME\", \"span\": [187, 213], \"raw\": \"16 octobre 2024 à 04:58:35\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "b696b1c9-c3cf-4641-9f83-ed597efa0bcf",
+    "raw_text": "Cher Mr. djoly, nous avons préparé un événement de collecte de fonds pour soutenir la création d'un nouvel atelier de musique à l'IBAN CODE: FR5558921708986267531845769 le 20/06/2024 13:59:39, afin de garantir une meilleure qualité des instruments destinés aux élèves. Pour plus de détails, n'hésitez pas à contacter Djoly@example.com.",
+    "masked_text": "Cher Mr. djoly, nous avons préparé un événement de collecte de fonds pour soutenir la création d'un nouvel atelier de musique à l'IBAN CODE: <IBAN_CODE> le <DATE_TIME>, afin de garantir une meilleure qualité des instruments destinés aux élèves. Pour plus de détails, n'hésitez pas à contacter Djoly@example.com.",
+    "entities": "[{\"type\": \"IBAN_CODE\", \"span\": [141, 168], \"raw\": \"FR5558921708986267531845769\"}, {\"type\": \"DATE_TIME\", \"span\": [172, 191], \"raw\": \"20/06/2024 13:59:39\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "9d8ed292-4e05-4384-8b34-83a005c2927b",
+    "raw_text": "Cher Monsieur Dupont, nous avons organisé un atelier de création de prototypes de nouveaux produits dans notre succursale située à Lyon 2 et nous souhaitons vous inviter à y participer. Votre compte bancaire est le suivant : FR1766344260248139445073194",
+    "masked_text": "Cher Monsieur Dupont, nous avons organisé un atelier de création de prototypes de nouveaux produits dans notre succursale située à Lyon 2 et nous souhaitons vous inviter à y participer. Votre compte bancaire est le suivant : <IBAN_CODE>",
+    "entities": "[{\"type\": \"IBAN_CODE\", \"span\": [225, 252], \"raw\": \"FR1766344260248139445073194\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "61f31688-cd7b-43cb-95bd-f0140401068e",
+    "raw_text": "Cher Mr. Delattre, nous avons découvert que votre compte email personnel Patrick.Delattre87@gmail.com a été vulnérable à une attaque de phishing et nous vous invitons à changer immédiatement votre mot de passe afin d'éviter tout risque potentiel de sécurité ou de vol d'identité.",
+    "masked_text": "Cher Mr. Delattre, nous avons découvert que votre compte email personnel Patrick.Delattre87@gmail.com a été vulnérable à une attaque de phishing et nous vous invitons à changer immédiatement votre mot de passe afin d'éviter tout risque potentiel de sécurité ou de vol d'identité.",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "5a469abd-5337-4848-b250-bf188193cfa2",
+    "raw_text": "\"Marguerite Antoine-Henry, personne de confiance pour l'entité financière 'Fidélité Banc', vous contactez le service client au 01-45-12-34-56 pour discuter des mises à jour de votre compte bancaire.\"",
+    "masked_text": "\"<PERSON>, personne de confiance pour l'entité financière 'Fidélité Banc', vous contactez le service client au 01-45-12-34-56 pour discuter des mises à jour de votre compte bancaire.\"",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [1, 25], \"raw\": \"Marguerite Antoine-Henry\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "eab53e45-6386-4a4e-981e-b803f2280a42",
+    "raw_text": "Je m'excuse, mais je ne peux pas générer de phrases contenant des informations personnelles réelles, telles que des numéros de carte de crédit ou des adresses bancaires. Cela pourrait être utilisé pour commettre des actes de fraude ou d’identité.\n\nSi vous souhaitez générer une phrase avec des éléments fictifs qui ne contiennent pas d'informations personnelles sensibles, je serai ravi de vous aider !",
+    "masked_text": "Je m'excuse, mais je ne peux pas générer de phrases contenant des informations personnelles réelles, telles que des numéros de carte de crédit ou des adresses bancaires. Cela pourrait être utilisé pour commettre des actes de fraude ou d’identité.\n\nSi vous souhaitez générer une phrase avec des éléments fictifs qui ne contiennent pas d'informations personnelles sensibles, je serai ravi de vous aider !",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "0810a941-dbfc-442d-962e-c8383ffa1979",
+    "raw_text": "\"Bonjour, nous avons récemment transféré 1500 euros sur votre compte bancaire FR5373715132186848445359835 IBAN pour le paiement de vos frais d'admission à l'université de Bordeaux.\"",
+    "masked_text": "\"Bonjour, nous avons récemment transféré 1500 euros sur votre compte bancaire <IBAN_CODE> IBAN pour le paiement de vos frais d'admission à l'université de Bordeaux.\"",
+    "entities": "[{\"type\": \"IBAN_CODE\", \"span\": [78, 105], \"raw\": \"FR5373715132186848445359835\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "8e3f9af6-df07-4bdf-8250-888c835965aa",
+    "raw_text": "Chez Alexandre Blot, un programme d'alphabétisation est en cours à West Shemar, financé par Morissette - Russel, et l'équipe s'est retrouvée grâce à l'adresse IP 82.224.164.103 pour discuter des prochaines étapes de la campagne.",
+    "masked_text": "Chez <PERSON>, un programme d'alphabétisation est en cours à West Shemar, financé par Morissette - Russel, et l'équipe s'est retrouvée grâce à l'adresse IP <IP_ADDRESS> pour discuter des prochaines étapes de la campagne.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [5, 19], \"raw\": \"Alexandre Blot\"}, {\"type\": \"IP_ADDRESS\", \"span\": [162, 176], \"raw\": \"82.224.164.103\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "af428ffa-fdde-4369-9361-c4398976cb77",
+    "raw_text": "Cher Marin, nous organisons un programme d'alphabétisation à la Maison de Marine Lombard le 07/06/2024 03:05:05. Pour réserver votre place, veuillez contacter notre service client à FR2173709968798329216943174 pour plus d'informations.",
+    "masked_text": "Cher Marin, nous organisons un programme d'alphabétisation à la Maison de <PERSON> le <DATE_TIME>. Pour réserver votre place, veuillez contacter notre service client à <IBAN_CODE> pour plus d'informations.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [74, 88], \"raw\": \"Marine Lombard\"}, {\"type\": \"IBAN_CODE\", \"span\": [182, 209], \"raw\": \"FR2173709968798329216943174\"}, {\"type\": \"DATE_TIME\", \"span\": [92, 111], \"raw\": \"07/06/2024 03:05:05\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "a75c714e-2066-4fea-b27f-e6603df679bd",
+    "raw_text": "\"Cher Luce Weber, nous avons identifié une erreur sur votre adresse IP actuelle de 96.111.2.176 et nous vous recommandons de la remplacer par une nouvelle pour éviter toute interruption dans vos transactions bancaires via l'IBAN FR6069246633370487088472332.\"",
+    "masked_text": "\"Cher <PERSON>, nous avons identifié une erreur sur votre adresse IP actuelle de <IP_ADDRESS> et nous vous recommandons de la remplacer par une nouvelle pour éviter toute interruption dans vos transactions bancaires via l'IBAN <IBAN_CODE>.\"",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [6, 16], \"raw\": \"Luce Weber\"}, {\"type\": \"IBAN_CODE\", \"span\": [229, 256], \"raw\": \"FR6069246633370487088472332\"}, {\"type\": \"IP_ADDRESS\", \"span\": [83, 95], \"raw\": \"96.111.2.176\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "7ee8b49d-b2ce-41a7-9866-23ba361877be",
+    "raw_text": "Cher Mr. Mahe, nous avons organisé un atelier de synthèse à Paris pour vous présenter notre nouvelle ligne de produits audiovisuels et discuter de la manière dont vos compétences en matière de Personas peuvent s'intégrer à notre stratégie marketing.",
+    "masked_text": "Cher Mr. Mahe, nous avons organisé un atelier de synthèse à Paris pour vous présenter notre nouvelle ligne de produits audiovisuels et discuter de la manière dont vos compétences en matière de Personas peuvent s'intégrer à notre stratégie marketing.",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "7ac8106b-2bcc-4f78-81cd-551b13369350",
+    "raw_text": "Cher M. Leblanc, nous avons organisé un atelier de marketing sur le chemin de Noël, 6 à Girard-les-Bains, pour discuter des stratégies de publicité avec l'équipe de Morissette - Russel. Contactez le compte email Hulda44@yahoo.com pour plus d'informations sur les détails de la conférence.",
+    "masked_text": "Cher M. Leblanc, nous avons organisé un atelier de marketing sur le chemin de Noël, 6 à <LOCATION>, pour discuter des stratégies de publicité avec l'équipe de Morissette - Russel. Contactez le compte email Hulda44@yahoo.com pour plus d'informations sur les détails de la conférence.",
+    "entities": "[{\"type\": \"LOCATION\", \"span\": [88, 104], \"raw\": \"Girard-les-Bains\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "97b0c171-1d9e-4849-b10a-256cc8e12fe1",
+    "raw_text": "Il semble que vous avez oublié de me donner un exemple précédent pour générer une phrase, je vais donc générer une phrase aléatoire qui contient les informations fournies.\n\nC'est une faute de frappe. Je vais essayer à nouveau avec l'exemple suivant :\n\nMonsieur Dupont, nous sommes en train d'organiser un atelier de formation pour les employés de notre entreprise et nous avons choisi la localisation IP 170.26.217.39 pour ce événement. Veuillez effectuer une virement bancaire sur l'IBAN FR6865778565643650042959077 afin de contribuer à cette initiative, et si vous avez besoin d'aide, vous pouvez nous contacter au numéro de téléphone 0581687383 ou à l'adresse e-mail Hulda44@yahoo.com.",
+    "masked_text": "Il semble que vous avez oublié de me donner un exemple précédent pour générer une phrase, je vais donc générer une phrase aléatoire qui contient les informations fournies.\n\nC'est une faute de frappe. Je vais essayer à nouveau avec l'exemple suivant :\n\nMonsieur Dupont, nous sommes en train d'organiser un atelier de formation pour les employés de notre entreprise et nous avons choisi la localisation IP <IP_ADDRESS> pour ce événement. Veuillez effectuer une virement bancaire sur l'IBAN <IBAN_CODE> afin de contribuer à cette initiative, et si vous avez besoin d'aide, vous pouvez nous contacter au numéro de téléphone <PHONE_NUMBER> ou à l'adresse e-mail Hulda44@yahoo.com.",
+    "entities": "[{\"type\": \"PHONE_NUMBER\", \"span\": [637, 647], \"raw\": \"0581687383\"}, {\"type\": \"IBAN_CODE\", \"span\": [489, 516], \"raw\": \"FR6865778565643650042959077\"}, {\"type\": \"IP_ADDRESS\", \"span\": [404, 417], \"raw\": \"170.26.217.39\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "a0920c37-8a6a-480f-b409-1d13e262175b",
+    "raw_text": "Cher Monsieur Lelièvre, nous avons organisé un atelier de formation sur la gestion de projet à l'avenue de Turpin, 39551 Sainte Guillaume-la-Forêt, avec le financement du credit card 3524551521090491. Votre présence est requise pour discuter des évolutions en matière de personnalisation et de confidentialité des données personnelles.",
+    "masked_text": "Cher Monsieur Lelièvre, nous avons organisé un atelier de formation sur la gestion de projet à l'<LOCATION>, avec le financement du credit card <CREDIT_CARD>. Votre présence est requise pour discuter des évolutions en matière de personnalisation et de confidentialité des données personnelles.",
+    "entities": "[{\"type\": \"CREDIT_CARD\", \"span\": [183, 199], \"raw\": \"3524551521090491\"}, {\"type\": \"LOCATION\", \"span\": [97, 146], \"raw\": \"avenue de Turpin, 39551 Sainte Guillaume-la-Forêt\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "ddb017dd-80f2-4580-8c5a-debd5e086bbd",
+    "raw_text": "Cher Mr. Laurent, notre équipe de marketing a récemment créé un campagne publicitaire en ligne pour promouvoir la nouvelle ligne de produits de cuisine \"Fusion\", et nous avons choisi votre numéro de téléphone, 0637845892, pour le lancer.",
+    "masked_text": "Cher Mr. Laurent, notre équipe de marketing a récemment créé un campagne publicitaire en ligne pour promouvoir la nouvelle ligne de produits de cuisine \"Fusion\", et nous avons choisi votre numéro de téléphone, <PHONE_NUMBER>, pour le lancer.",
+    "entities": "[{\"type\": \"PHONE_NUMBER\", \"span\": [210, 220], \"raw\": \"0637845892\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "f7727f58-00da-42b4-921e-769a0a160b4e",
+    "raw_text": "Cher Élisabeth-Anastasie Royer, nous avons identifié une anomalie sur l'adresse IP actuelle 130.221.168.29, qui a été associée à un incident informatique potentiellement lié à votre compte bancaire BE71631059014380 le 17/03/2025 23:01:59.",
+    "masked_text": "Cher <PERSON>, nous avons identifié une anomalie sur l'adresse IP actuelle <IP_ADDRESS>, qui a été associée à un incident informatique potentiellement lié à votre compte bancaire BE71631059014380 le <DATE_TIME>.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [5, 30], \"raw\": \"Élisabeth-Anastasie Royer\"}, {\"type\": \"IP_ADDRESS\", \"span\": [92, 106], \"raw\": \"130.221.168.29\"}, {\"type\": \"DATE_TIME\", \"span\": [218, 237], \"raw\": \"17/03/2025 23:01:59\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "4bd7377f-ae67-42fa-a035-eda633c9eab3",
+    "raw_text": "Cher Monsieur Dupont, nous sommes ravis de vous informer que votre adresse e-mail actuelle, Hulda44@yahoo.com, a été mis à jour pour permettre une meilleure prise en charge de vos données personnelles. Nous avons également confirmé avec l'équipe technique que l'IP address actuelle, 20.226.84.172, reste stable et sécurisée. Nous nous réjouissons de continuer notre collaboration et nous vous invitons à contacter nous au numéro de téléphone 04 66 93 56 46 pour les détails du programme d'alphabétisation en cours sur 20, rue Buisson, 53865 Cousin-la-Forêt.",
+    "masked_text": "Cher Monsieur Dupont, nous sommes ravis de vous informer que votre adresse e-mail actuelle, Hulda44@yahoo.com, a été mis à jour pour permettre une meilleure prise en charge de vos données personnelles. Nous avons également confirmé avec l'équipe technique que l'IP address actuelle, <IP_ADDRESS>, reste stable et sécurisée. Nous nous réjouissons de continuer notre collaboration et nous vous invitons à contacter nous au numéro de téléphone <PHONE_NUMBER> pour les détails du programme d'alphabétisation en cours sur <LOCATION>.",
+    "entities": "[{\"type\": \"PHONE_NUMBER\", \"span\": [442, 456], \"raw\": \"04 66 93 56 46\"}, {\"type\": \"IP_ADDRESS\", \"span\": [283, 296], \"raw\": \"20.226.84.172\"}, {\"type\": \"LOCATION\", \"span\": [518, 556], \"raw\": \"20, rue Buisson, 53865 Cousin-la-Forêt\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "79f67f2f-393e-4172-80aa-d22d2eacf458",
+    "raw_text": "Cher M. Gaspard, nous avons finalisé l'achat d'un nouveau véhicule électrique de la marque Eco-Fleet, dont le numéro de série est ECO1234567890 et le montant du dépôt à effectuer sur le compte bancaire 675913107362 pour payer les frais de livraison.",
+    "masked_text": "Cher M. Gaspard, nous avons finalisé l'achat d'un nouveau véhicule électrique de la marque Eco-Fleet, dont le numéro de série est ECO1234567890 et le montant du dépôt à effectuer sur le compte bancaire <CREDIT_CARD> pour payer les frais de livraison.",
+    "entities": "[{\"type\": \"CREDIT_CARD\", \"span\": [202, 214], \"raw\": \"675913107362\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "cb286f5c-896b-479a-a5d1-3bfd387b8a64",
+    "raw_text": "Pouvez-vous me donner un mot pour continuer le développement de cette phrase ?",
+    "masked_text": "Pouvez-vous me donner un mot pour continuer le développement de cette phrase ?",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "466884d1-92c1-43aa-9d80-328576234cce",
+    "raw_text": "Cher Monsieur Hulda, nous avons organisé un atelier de programmation à 197.135.211.123 pour le 27/06/2024 22:08:57 afin d'assister à une conférence sur les dernières innovations en algorithmie. Contactez hbertrand@example.net pour obtenir davantage d'informations.",
+    "masked_text": "Cher Monsieur Hulda, nous avons organisé un atelier de programmation à <IP_ADDRESS> pour <DATE_TIME> afin d'assister à une conférence sur les dernières innovations en algorithmie. Contactez <EMAIL_ADDRESS> pour obtenir davantage d'informations.",
+    "entities": "[{\"type\": \"EMAIL_ADDRESS\", \"span\": [204, 225], \"raw\": \"hbertrand@example.net\"}, {\"type\": \"IP_ADDRESS\", \"span\": [71, 86], \"raw\": \"197.135.211.123\"}, {\"type\": \"DATE_TIME\", \"span\": [92, 114], \"raw\": \"le 27/06/2024 22:08:57\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "e37c908c-050f-43a2-be51-ca15c65bd74b",
+    "raw_text": "\"Je suis désolé de vous informer que nous avons identifié une anomalie sur votre compte bancaire, le numéro de compte étant BE71631059014380. Pour confirmer cette information, veuillez contacter notre service client à +33 (0)3 81 95 09 96 ou envoi un e-mail à info@synthetique.fr.\"",
+    "masked_text": "\"Je suis désolé de vous informer que nous avons identifié une anomalie sur votre compte bancaire, le numéro de compte étant BE71631059014380. Pour confirmer cette information, veuillez contacter notre service client à <PHONE_NUMBER> ou envoi un e-mail à info@synthetique.fr.\"",
+    "entities": "[{\"type\": \"PHONE_NUMBER\", \"span\": [218, 238], \"raw\": \"+33 (0)3 81 95 09 96\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "63c5e9e1-900c-4eb3-8b2b-1f014c802df2",
+    "raw_text": "Cher Henri Lemonnier, nous avons reçu votre demande pour un entretien d'emploi à Producer concernant l'embauche d'un agent de vente à distance. Pour plus d'informations, veuillez contacter honore88@example.com avec votre CV et une brève présentation.",
+    "masked_text": "Cher <PERSON>, nous avons reçu votre demande pour un entretien d'emploi à Producer concernant l'embauche d'un agent de vente à distance. Pour plus d'informations, veuillez contacter <EMAIL_ADDRESS> avec votre CV et une brève présentation.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [5, 20], \"raw\": \"Henri Lemonnier\"}, {\"type\": \"EMAIL_ADDRESS\", \"span\": [189, 209], \"raw\": \"honore88@example.com\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "6c5c8716-051c-46dd-bd8e-7cf0dded0d5d",
+    "raw_text": "\"La révision des données sensibles est un processus essentiel pour notre équipe de qualité, nous avons récemment modifié l'IBAN pour le compte 0235864741 à FR0580455906029946563350081 et il est impératif de vérifier la date limite de remise avant le 11/12/2024 08:42:39.\"",
+    "masked_text": "\"La révision des données sensibles est un processus essentiel pour notre équipe de qualité, nous avons récemment modifié l'IBAN pour le compte <PHONE_NUMBER> à <IBAN_CODE> et il est impératif de vérifier la date limite de remise avant le <DATE_TIME>.\"",
+    "entities": "[{\"type\": \"PHONE_NUMBER\", \"span\": [143, 153], \"raw\": \"0235864741\"}, {\"type\": \"IBAN_CODE\", \"span\": [156, 183], \"raw\": \"FR0580455906029946563350081\"}, {\"type\": \"DATE_TIME\", \"span\": [250, 269], \"raw\": \"11/12/2024 08:42:39\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "2dc7b582-88bb-4948-97c1-0ea13274b28c",
+    "raw_text": "\"Nous sommes enchantés de vous accueillir à nos bureaux, situés au 866, boulevard Rodriguez, 90603 Lemonnier, où nous sommes actuellement en train d'organiser un atelier de formation sur la gestion des données personnelles avec Morissette - Russel. Veuillez contacter Hulda44@yahoo.com pour obtenir plus de informations et bénéficier des avantages exclusifs offerts par notre programme.\"",
+    "masked_text": "\"Nous sommes enchantés de vous accueillir à nos bureaux, situés au <LOCATION>, où nous sommes actuellement en train d'organiser un atelier de formation sur la gestion des données personnelles avec Morissette - Russel. Veuillez contacter Hulda44@yahoo.com pour obtenir plus de informations et bénéficier des avantages exclusifs offerts par notre programme.\"",
+    "entities": "[{\"type\": \"LOCATION\", \"span\": [67, 108], \"raw\": \"866, boulevard Rodriguez, 90603 Lemonnier\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "a270001f-3fc2-4226-8f2b-0e50fd478260",
+    "raw_text": "Cher Émilie Legrand de Fischer, nous organisons un workshop d'écriture créative à Bordeaux dans 2 jours pour explorer les possibilités du monde virtuel. Contactez votre adresse e-mail actuelle emilielegranddefischer@outlook.com pour plus de détails sur le contenu du programme et les activités prévues.",
+    "masked_text": "Cher <PERSON>, nous organisons un workshop d'écriture créative à Bordeaux dans 2 jours pour explorer les possibilités du monde virtuel. Contactez votre adresse e-mail actuelle emilielegranddefischer@outlook.com pour plus de détails sur le contenu du programme et les activités prévues.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [5, 30], \"raw\": \"Émilie Legrand de Fischer\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "2ad6ca0d-d66a-47c7-b59f-377ddd0be4d3",
+    "raw_text": "Cher Monsieur Dupont, nous avons organisé un atelier de codage pour les jeunes développeurs à Nantes et nous avons prévu d'utiliser la carte bancaire IBAN CODE: FR9032076530243079887433311 pour financer le événement, vous pouvez contacter Hulda Dupont à hulda.dupont@orange.com pour plus de détails.",
+    "masked_text": "Cher Monsieur Dupont, nous avons organisé un atelier de codage pour les jeunes développeurs à Nantes et nous avons prévu d'utiliser la carte bancaire IBAN CODE: <IBAN_CODE> pour financer le événement, vous pouvez contacter Hulda Dupont à hulda.dupont@orange.com pour plus de détails.",
+    "entities": "[{\"type\": \"IBAN_CODE\", \"span\": [161, 188], \"raw\": \"FR9032076530243079887433311\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "74d76c27-3aa9-4778-9339-5065148d0fed",
+    "raw_text": "Cher Alfred Brun de la Blanc, il est prévu que vous soyez invité à assurer l'intervention clé au congrès annuel du mouvement Artistique Alternatif (MAA) qui aura lieu le 15 mars prochain à L'Île-aux-Couleurs.",
+    "masked_text": "Cher <PERSON>, il est prévu que vous soyez invité à assurer l'intervention clé au congrès annuel du mouvement Artistique Alternatif (MAA) qui aura lieu le 15 mars prochain à L'Île-aux-Couleurs.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [5, 28], \"raw\": \"Alfred Brun de la Blanc\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "89acb5d2-e6a7-44ef-b6df-adcb5f833781",
+    "raw_text": "Je m'excuse, mais je ne peux pas générer de phrases contenant des informations personnelles réelles. Puis-je vous aider avec autre chose ?",
+    "masked_text": "Je m'excuse, mais je ne peux pas générer de phrases contenant des informations personnelles réelles. Puis-je vous aider avec autre chose ?",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "b4dcdf57-4122-42f9-89d9-539f98ecf3dd",
+    "raw_text": "Cher client, merci de nous avoir contactés pour résoudre votre problème technique. Pour plus d'informations sur notre service, vous pouvez contacter Monsieur Thibault à thibault89@outlook.com ou appelé le  +33 4 87 14 68 73 pour une assistance rapide et professionnelle.",
+    "masked_text": "Cher client, merci de nous avoir contactés pour résoudre votre problème technique. Pour plus d'informations sur notre service, vous pouvez contacter Monsieur Thibault à thibault89@outlook.com ou appelé le  <PHONE_NUMBER> pour une assistance rapide et professionnelle.",
+    "entities": "[{\"type\": \"PHONE_NUMBER\", \"span\": [206, 223], \"raw\": \"+33 4 87 14 68 73\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "35d38ab3-ecb8-43d4-a1bd-01c472838aad",
+    "raw_text": "Aimée Blanc, étudiante de licence en informatique, a envoyé un courrier électronique à dorotheegoncalves@example.com pour exprimer ses préoccupations concernant la sécurité des données personnelles lors de son travail sur le projet Morissette - Russel qui a lieu le 03/03/2025 à 16:15:22.",
+    "masked_text": "<PERSON>, étudiante de licence en informatique, a envoyé un courrier électronique à <EMAIL_ADDRESS> pour exprimer ses préoccupations concernant la sécurité des données personnelles lors de son travail sur le projet Morissette - Russel qui a lieu <DATE_TIME>.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [0, 11], \"raw\": \"Aimée Blanc\"}, {\"type\": \"EMAIL_ADDRESS\", \"span\": [87, 116], \"raw\": \"dorotheegoncalves@example.com\"}, {\"type\": \"DATE_TIME\", \"span\": [263, 287], \"raw\": \"le 03/03/2025 à 16:15:22\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "26ac2813-f94c-41b2-a5d4-b889ae1ffb21",
+    "raw_text": "Cher M. Leblanc, nous avons reçu votre demande de réduction de frais pour le séjour de votre carte de crédit 4335825800567701 le 12 mars à Paris, ainsi qu'une réclamation pour un débit non autorisé sur votre compte bancaire BE71631059014380, et vous invitons à contacter notre service client Hulda44@yahoo.com pour plus d'informations.",
+    "masked_text": "Cher M. Leblanc, nous avons reçu votre demande de réduction de frais pour le séjour de votre carte de crédit <CREDIT_CARD> le 12 mars à Paris, ainsi qu'une réclamation pour un débit non autorisé sur votre compte bancaire BE71631059014380, et vous invitons à contacter notre service client Hulda44@yahoo.com pour plus d'informations.",
+    "entities": "[{\"type\": \"CREDIT_CARD\", \"span\": [109, 125], \"raw\": \"4335825800567701\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "a5248046-37c7-4a66-b5d9-391f57e8a994",
+    "raw_text": "\"Cher Mr. Tanguy-Étienne, nous avons créé un système de gestion des dons pour votre association de soutien à l'éducation, et nous voudrions vous inviter à effectuer un don sur notre compte bancaire 1234567890123456.\"",
+    "masked_text": "\"Cher Mr. Tanguy-Étienne, nous avons créé un système de gestion des dons pour votre association de soutien à l'éducation, et nous voudrions vous inviter à effectuer un don sur notre compte bancaire 1234567890123456.\"",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "8bc5de9e-ba15-4843-a312-5ae72828c05f",
+    "raw_text": "Cher Monsieur Legrand, nous avons organisé un atelier de formation pour les stagiaires sur le compte IBAN CODE FR1104153924430196261652608 et vous êtes invité à rejoindre le déjeuner à 12h30 au restaurant La Bourse.",
+    "masked_text": "Cher Monsieur Legrand, nous avons organisé un atelier de formation pour les stagiaires sur le compte IBAN CODE <IBAN_CODE> et vous êtes invité à rejoindre le déjeuner à 12h30 au restaurant La Bourse.",
+    "entities": "[{\"type\": \"IBAN_CODE\", \"span\": [111, 138], \"raw\": \"FR1104153924430196261652608\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "5c640819-672a-4555-9775-f3020990f331",
+    "raw_text": "Cher Monsieur Pierre Dubois, le 9, rue Aurélie Hoareau à Françoisdan abrite actuellement une exposition d'art contemporain qui s'intitule « L'Ephémère ». Vous êtes cordialement invité(e) à vous rendre ce soir pour assister à l'édition de la conférence « Innovations numériques en art » au sein du même bâtiment.",
+    "masked_text": "Cher Monsieur Pierre Dubois, le <LOCATION> abrite actuellement une exposition d'art contemporain qui s'intitule « L'Ephémère ». Vous êtes cordialement invité(e) à vous rendre ce soir pour assister à l'édition de la conférence « Innovations numériques en art » au sein du même bâtiment.",
+    "entities": "[{\"type\": \"LOCATION\", \"span\": [32, 68], \"raw\": \"9, rue Aurélie Hoareau à Françoisdan\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "7f6d7d1f-ff75-430a-b9a8-ba951d177cbf",
+    "raw_text": "Cher Suzanne Andre Le Barbe, nous avons détecté une anomalies de sécurité sur votre compte bancaire 4422052234188335, qui a été connecté à l'adresse IP 183.173.182.125. Pour protéger vos informations personnelles, veuillez contacter notre équipe d'assistance technique pour obtenir des conseils et des solutions.",
+    "masked_text": "Cher <PERSON>, nous avons détecté une anomalies de sécurité sur votre compte bancaire <CREDIT_CARD>, qui a été connecté à l'adresse IP <IP_ADDRESS>. Pour protéger vos informations personnelles, veuillez contacter notre équipe d'assistance technique pour obtenir des conseils et des solutions.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [5, 27], \"raw\": \"Suzanne Andre Le Barbe\"}, {\"type\": \"CREDIT_CARD\", \"span\": [100, 116], \"raw\": \"4422052234188335\"}, {\"type\": \"IP_ADDRESS\", \"span\": [152, 167], \"raw\": \"183.173.182.125\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "ea7ded56-976b-4c6e-9df4-824339c76676",
+    "raw_text": "Cher Monsieur LeFleur, nous avons organisé un atelier de photographie pour le mois d'octobre à 16, rue Maggie Auger, 34882 Sainte Michèle, dans le cadre d'un projet de promotion artistique local soutenu par l'association des Amateurs de la Rue et son numéro de téléphone préféré est bien celui du comité directeur : leFleur@live.com.",
+    "masked_text": "Cher Monsieur LeFleur, nous avons organisé un atelier de photographie pour le mois d'octobre à <LOCATION>, dans le cadre d'un projet de promotion artistique local soutenu par l'association des Amateurs de la Rue et son numéro de téléphone préféré est bien celui du comité directeur : leFleur@live.com.",
+    "entities": "[{\"type\": \"LOCATION\", \"span\": [95, 137], \"raw\": \"16, rue Maggie Auger, 34882 Sainte Michèle\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "365e7b95-b012-491c-b489-56354668ff02",
+    "raw_text": "Cher Monsieur Didier, vous êtes invité à participer à un atelier de formation sur la gestion des données personnelles confidentielles et sécurisées le 10 mars prochain à Paris dans le cadre d'un programme de coopération avec l'entreprise Oliviera. Pour plus d'informations, veuillez contacter Madame Gabrielle Didier à olivierclaudine@example.org ou en vous rendant directement au bureau central de la Société Generale situé rue du banque 47 07006 François-Conte Paris FR5657068292602805647244180",
+    "masked_text": "Cher Monsieur Didier, vous êtes invité à participer à un atelier de formation sur la gestion des données personnelles confidentielles et sécurisées le 10 mars prochain à Paris dans le cadre d'un programme de coopération avec l'entreprise Oliviera. Pour plus d'informations, veuillez contacter Madame <PERSON> à <EMAIL_ADDRESS> ou en vous rendant directement au bureau central de la Société Generale situé rue du banque 47 07006 François-Conte Paris <IBAN_CODE>",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [300, 316], \"raw\": \"Gabrielle Didier\"}, {\"type\": \"EMAIL_ADDRESS\", \"span\": [319, 346], \"raw\": \"olivierclaudine@example.org\"}, {\"type\": \"IBAN_CODE\", \"span\": [469, 496], \"raw\": \"FR5657068292602805647244180\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "20beadb5-0862-43f8-834d-fbfd46b518d3",
+    "raw_text": "Cher Mr. Thompson, le compte bancaire 6011217395521853 a été débloqué après une vérification à distance sur l'adresse IP actuelle 149.195.182.69, et nous sommes en train d'organiser un programme d'alphabétisation pour les enfants de la communauté, avec l'aide de Hulda44@yahoo.com, à West Shemar le 06/08/2024 10:26:34.",
+    "masked_text": "Cher Mr. Thompson, le compte bancaire <CREDIT_CARD> a été débloqué après une vérification à distance sur l'adresse IP actuelle 149.195.182.69, et nous sommes en train d'organiser un programme d'alphabétisation pour les enfants de la communauté, avec l'aide de Hulda44@yahoo.com, à West Shemar le <DATE_TIME>.",
+    "entities": "[{\"type\": \"CREDIT_CARD\", \"span\": [38, 54], \"raw\": \"6011217395521853\"}, {\"type\": \"DATE_TIME\", \"span\": [299, 318], \"raw\": \"06/08/2024 10:26:34\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "1614d62a-f3ba-444d-a1db-81569ac64675",
+    "raw_text": "\"La société FR0757804569445536601372832 a organisé un atelier de numération pour les bénévoles de Sainte Maggie-la-Forêt, situés au 657, chemin de Léger, à la date et heure précises de 20/09/2024 01:42:11.\"",
+    "masked_text": "\"La société <IBAN_CODE> a organisé un atelier de numération pour les bénévoles de Sainte <LOCATION>, situés au 657, chemin de Léger, à la date et heure précises de <DATE_TIME>.\"",
+    "entities": "[{\"type\": \"IBAN_CODE\", \"span\": [12, 39], \"raw\": \"FR0757804569445536601372832\"}, {\"type\": \"LOCATION\", \"span\": [105, 120], \"raw\": \"Maggie-la-Forêt\"}, {\"type\": \"DATE_TIME\", \"span\": [185, 204], \"raw\": \"20/09/2024 01:42:11\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "97436cac-3b75-4dde-b753-688476c06d7c",
+    "raw_text": "Cher Mr. Brouillard, nous organisons un séminaire sur la gestion de données confidentielles à Lyon en collaboration avec Émilie Dupont - administrateur. Contactez le numéro de téléphone +33 4 43 57 46 20 pour obtenir plus d'informations sur les mesures de sécurité à mettre en place.",
+    "masked_text": "Cher Mr. Brouillard, nous organisons un séminaire sur la gestion de données confidentielles à Lyon en collaboration avec Émilie Dupont - administrateur. Contactez le numéro de téléphone <PHONE_NUMBER> pour obtenir plus d'informations sur les mesures de sécurité à mettre en place.",
+    "entities": "[{\"type\": \"PHONE_NUMBER\", \"span\": [186, 203], \"raw\": \"+33 4 43 57 46 20\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "6689c75a-b68f-4bbb-bbb6-e6a0708793ff",
+    "raw_text": "Chez Hulda44@yahoo.com, nous avons organisé un concert de jazz à West Shemar le 14 octobre 2024 à 21:23:02, avec comme guest l'équipage musical 107.71.157.228, et on vous invite vivement pour un spectacle unique !",
+    "masked_text": "Chez Hulda44@yahoo.com, nous avons organisé un concert de jazz à West Shemar <DATE_TIME>, avec comme guest l'équipage musical <IP_ADDRESS>, et on vous invite vivement pour un spectacle unique !",
+    "entities": "[{\"type\": \"IP_ADDRESS\", \"span\": [144, 158], \"raw\": \"107.71.157.228\"}, {\"type\": \"DATE_TIME\", \"span\": [77, 106], \"raw\": \"le 14 octobre 2024 à 21:23:02\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "1d52e9b4-3bbb-4201-a874-04f2ac89a00b",
+    "raw_text": "Je m'excuse, mais je ne peux pas générer de phrases contenant des informations personnelles réelles. Puis-je vous aider avec autre chose ?",
+    "masked_text": "Je m'excuse, mais je ne peux pas générer de phrases contenant des informations personnelles réelles. Puis-je vous aider avec autre chose ?",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "7e4c80ad-ee4d-49a9-abe5-bce1f7ba22c9",
+    "raw_text": "Bonjour, je suis le directeur des opérations de la société Xylophone, et j'aimerais discuter avec vous sur les nouvelles tendances du marché de la musique électronique. Pour plus d'informations, veuillez contacter hardynoel@example.net.",
+    "masked_text": "Bonjour, je suis le directeur des opérations de la société Xylophone, et j'aimerais discuter avec vous sur les nouvelles tendances du marché de la musique électronique. Pour plus d'informations, veuillez contacter <EMAIL_ADDRESS>.",
+    "entities": "[{\"type\": \"EMAIL_ADDRESS\", \"span\": [214, 235], \"raw\": \"hardynoel@example.net\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "8746e536-0f34-4316-a88b-09d192b636c0",
+    "raw_text": "Cher Mr. Pottier, nous avons organisé un atelier de formation pour les enseignants de mathématiques à Lyon dans le cadre du programme éducatif \" Numérique Pour Tous\" et nous pensons vous inviter à y assister comme speaker. Contactez pottierjules@example.org pour plus d'informations.",
+    "masked_text": "Cher Mr. Pottier, nous avons organisé un atelier de formation pour les enseignants de mathématiques à Lyon dans le cadre du programme éducatif \" Numérique Pour Tous\" et nous pensons vous inviter à y assister comme speaker. Contactez <EMAIL_ADDRESS> pour plus d'informations.",
+    "entities": "[{\"type\": \"EMAIL_ADDRESS\", \"span\": [233, 257], \"raw\": \"pottierjules@example.org\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "7ed22911-5b51-43e6-9427-fcdd33af3afe",
+    "raw_text": "Cher Monsieur Gerard, nous organisons un atelier de créativité pour enfants à West Shemar le 11 décembre 2024 à 07h27min, et je souhaite partager l'expérience avec vous via l'adresse électronique gerard70@example.com.",
+    "masked_text": "Cher Monsieur Gerard, nous organisons un atelier de créativité pour enfants à West Shemar le 11 décembre 2024 à 07h27min, et je souhaite partager l'expérience avec vous via l'adresse électronique <EMAIL_ADDRESS>.",
+    "entities": "[{\"type\": \"EMAIL_ADDRESS\", \"span\": [196, 216], \"raw\": \"gerard70@example.com\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "f3326b0b-8b01-4b78-b8a8-f468559e2bd9",
+    "raw_text": "Cher Yves Brun, nous avons identifié une anomalie sur votre adresse IP actuelle 88.229.126.25 qui est associée à un flux de transactions étrangères provenant d'Europe, et nous vous invitons à vérifier immédiatement le compte FR3570299928151574265533030 pour des raisons de sécurité.",
+    "masked_text": "Cher <PERSON>, nous avons identifié une anomalie sur votre adresse IP actuelle <IP_ADDRESS> qui est associée à un flux de transactions étrangères provenant d'Europe, et nous vous invitons à vérifier immédiatement le compte <IBAN_CODE> pour des raisons de sécurité.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [5, 14], \"raw\": \"Yves Brun\"}, {\"type\": \"IBAN_CODE\", \"span\": [225, 252], \"raw\": \"FR3570299928151574265533030\"}, {\"type\": \"IP_ADDRESS\", \"span\": [80, 93], \"raw\": \"88.229.126.25\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "cf6f8f2d-c47c-463b-96fb-7c422257ea82",
+    "raw_text": "\"Veuillez contacter Mr. Guillet, situé à l'adresse 82, boulevard Antoinette Lebreton, 04229 Renard, pour plus d'informations sur notre nouvelle ligne de produits biomédicaux à propos du numéro de compte IBAN FR9580231800102419944665141.\"",
+    "masked_text": "\"Veuillez contacter Mr. Guillet, situé à l'adresse <LOCATION>, pour plus d'informations sur notre nouvelle ligne de produits biomédicaux à propos du numéro de compte IBAN <IBAN_CODE>.\"",
+    "entities": "[{\"type\": \"IBAN_CODE\", \"span\": [208, 235], \"raw\": \"FR9580231800102419944665141\"}, {\"type\": \"LOCATION\", \"span\": [51, 98], \"raw\": \"82, boulevard Antoinette Lebreton, 04229 Renard\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "b3b94c7f-3712-490a-9bc3-573a05960ad3",
+    "raw_text": "Cher Noël-Matthieu Lucas, nous sommes ravis de vous contacter au sujet d'un programme d'alphabétisation qui sera mis en place à 722, rue de Wagner, 59897 Sainte Thérèse, et qui sera soutenu financièrement par Morissette - Russel via un transfert sur son compte bancaire therese92@example.com.",
+    "masked_text": "Cher <PERSON>, nous sommes ravis de vous contacter au sujet d'un programme d'alphabétisation qui sera mis en place à <LOCATION>, et qui sera soutenu financièrement par Morissette - Russel via un transfert sur son compte bancaire <EMAIL_ADDRESS>.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [5, 24], \"raw\": \"Noël-Matthieu Lucas\"}, {\"type\": \"EMAIL_ADDRESS\", \"span\": [270, 291], \"raw\": \"therese92@example.com\"}, {\"type\": \"LOCATION\", \"span\": [128, 168], \"raw\": \"722, rue de Wagner, 59897 Sainte Thérèse\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "0b613e00-48de-454a-a64a-2d381fb56a04",
+    "raw_text": "Cher Monsieur Laurent, nous avons organisé un atelier de création de contenu à Paris en collaboration avec Léonie Dupont. Pour plus d'informations, contactez Anastasie47@example.org.",
+    "masked_text": "Cher Monsieur Laurent, nous avons organisé un atelier de création de contenu à Paris en collaboration avec Léonie Dupont. Pour plus d'informations, contactez Anastasie47@example.org.",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "f3fe363b-d8e0-4866-a79e-eb77660134d9",
+    "raw_text": "Je m'excuse, mais je ne peux pas générer de phrases contenant des informations personnelles réelles. Puis-je vous aider avec autre chose ?",
+    "masked_text": "Je m'excuse, mais je ne peux pas générer de phrases contenant des informations personnelles réelles. Puis-je vous aider avec autre chose ?",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "bb5ee0d2-60c6-418d-83ce-be53c60a0b92",
+    "raw_text": "\"La personne à contacter pour plus d'informations sur le programme de remboursement de cartes de crédit n'est que CREDIT CARD 213119822958725, qui est valable jusqu'à une date limite indéterminée.\"",
+    "masked_text": "\"La personne à contacter pour plus d'informations sur le programme de remboursement de cartes de crédit n'est que CREDIT CARD <CREDIT_CARD>, qui est valable jusqu'à une date limite indéterminée.\"",
+    "entities": "[{\"type\": \"CREDIT_CARD\", \"span\": [126, 141], \"raw\": \"213119822958725\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "222aa7f5-3d93-42ca-a541-44a57490a714",
+    "raw_text": "Cher Mr. Elwes, nous avons trouvé votre identifiant de sécurité sur notre système informatique et vous sommes désolés pour la sécurité de vos informations personnelles, mais il est important de savoir que nous prenons des mesures de protégation de données sévères et nous allons contacter votre compte bancaire FR7883765289892356867887366 à raison d'un minimum de 5 transactions par mois afin de vous aider avec tout problème concernant votre carte de crédit 0146998594.",
+    "masked_text": "Cher Mr. Elwes, nous avons trouvé votre identifiant de sécurité sur notre système informatique et vous sommes désolés pour la sécurité de vos informations personnelles, mais il est important de savoir que nous prenons des mesures de protégation de données sévères et nous allons contacter votre compte bancaire <IBAN_CODE> à raison d'un minimum de 5 transactions par mois afin de vous aider avec tout problème concernant votre carte de crédit <PHONE_NUMBER>.",
+    "entities": "[{\"type\": \"PHONE_NUMBER\", \"span\": [459, 469], \"raw\": \"0146998594\"}, {\"type\": \"IBAN_CODE\", \"span\": [311, 338], \"raw\": \"FR7883765289892356867887366\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "aa38f5ca-af27-4c99-9e86-8c67ce7330c6",
+    "raw_text": "Cher Mr. Alphonse Hebert, veuillez transférer 750€ sur le compte FR3587870617110720097359512 pour l'inscription à notre atelier de musique dans Le Mans, réunissons-vous le 24/08/2024 à 17:58:09 au 149.195.182.69 pour discuter des détails.",
+    "masked_text": "Cher Mr. <PERSON>, veuillez transférer 750€ sur le compte <IBAN_CODE> pour l'inscription à notre atelier de musique dans Le Mans, réunissons-vous <DATE_TIME> au 149.195.182.69 pour discuter des détails.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [9, 24], \"raw\": \"Alphonse Hebert\"}, {\"type\": \"IBAN_CODE\", \"span\": [65, 92], \"raw\": \"FR3587870617110720097359512\"}, {\"type\": \"DATE_TIME\", \"span\": [169, 193], \"raw\": \"le 24/08/2024 à 17:58:09\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "c8194393-701d-4500-8305-2b3b1fd8edf9",
+    "raw_text": "Cher Agnès Maréchal, veuillez transférer le montant de 2452 euros provenant du compte bancaire IBAN FR1512121676784978547532452 vers notre compte BE71631059014380 pour couvrir les frais d'achat des billets pour la prochaine conférence organisée le 02/04/2025 à 02:03:36.",
+    "masked_text": "Cher <PERSON>, veuillez transférer le montant de 2452 euros provenant du compte bancaire IBAN <IBAN_CODE> vers notre compte BE71631059014380 pour couvrir les frais d'achat des billets pour la prochaine conférence organisée le 02/04/2025 à 02:03:36.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [5, 19], \"raw\": \"Agnès Maréchal\"}, {\"type\": \"IBAN_CODE\", \"span\": [100, 127], \"raw\": \"FR1512121676784978547532452\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "cae63f5c-779c-4e91-9068-efa58401c937",
+    "raw_text": "Cher Laurent Barthelemy, nous avons mis en place un système de gestion des dons pour notre campagne d'alphabétisation à West Shemar, et votre contribution via l'adresse email juliette90@example.net est très appréciée.",
+    "masked_text": "Cher <PERSON>, nous avons mis en place un système de gestion des dons pour notre campagne d'alphabétisation à West Shemar, et votre contribution via l'adresse email <EMAIL_ADDRESS> est très appréciée.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [5, 23], \"raw\": \"Laurent Barthelemy\"}, {\"type\": \"EMAIL_ADDRESS\", \"span\": [175, 197], \"raw\": \"juliette90@example.net\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "83127b03-62f0-4dd1-b807-3c8fd7655305",
+    "raw_text": "Il semble que vous ayez oublié de me donner l'élément à inclure dans la phrase. Puis-je vous aider à le sélectionner ou le générer ?",
+    "masked_text": "Il semble que vous ayez oublié de me donner l'élément à inclure dans la phrase. Puis-je vous aider à le sélectionner ou le générer ?",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "cc7fad8e-7b61-4a33-a76d-381ff4ee2f55",
+    "raw_text": "Cher Monsieur Mercier, le compte bancaire IBAN FR7582104831939874580514907 a été déverrouillé pour l'ensemble des transactions du mois décembre 2024. Veuillez vérifier la date et l'heure de la transaction de 17h51 le 17 décembre 2024, pour garantir une analyse précise.",
+    "masked_text": "Cher Monsieur Mercier, le compte bancaire IBAN <IBAN_CODE> a été déverrouillé pour l'ensemble des transactions du mois décembre 2024. Veuillez vérifier la date et l'heure de la transaction de <DATE_TIME>, pour garantir une analyse précise.",
+    "entities": "[{\"type\": \"IBAN_CODE\", \"span\": [47, 74], \"raw\": \"FR7582104831939874580514907\"}, {\"type\": \"DATE_TIME\", \"span\": [208, 233], \"raw\": \"17h51 le 17 décembre 2024\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "58c41612-0cc3-4bb2-94e2-1b416e910593",
+    "raw_text": "Olivie Bodin a organisé un voyage d'affaires à Paris pour discuter du projet de développement de la ligne de métro reliant le centre commercial \"WestShemar\" à \"La Défense\". Elle vous contacte via son numéro de téléphone 04 77 50 98 03 pour vous convaincre de participer à cet événement.",
+    "masked_text": "<PERSON> a organisé un voyage d'affaires à Paris pour discuter du projet de développement de la ligne de métro reliant le centre commercial \"WestShemar\" à \"La Défense\". Elle vous contacte via son numéro de téléphone <PHONE_NUMBER> pour vous convaincre de participer à cet événement.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [0, 12], \"raw\": \"Olivie Bodin\"}, {\"type\": \"PHONE_NUMBER\", \"span\": [220, 234], \"raw\": \"04 77 50 98 03\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "baee53c3-d95f-4446-ae07-dad8a5391169",
+    "raw_text": "\"Nous avons reçu un appel téléphonique de M. Lefèvre, le 08/04/2023, concernant son carte bancaire : 4008567682074, et nous voulions vous informer que votre IBAN est FR9086259562310300922705601, donc si vous souhaitez vérifier les informations, vous pouvez contacter le service client de Morissette - Russel en écrivant à voisinalex@example.org.\"",
+    "masked_text": "\"Nous avons reçu un appel téléphonique de M. Lefèvre, le 08/04/2023, concernant son carte bancaire : <CREDIT_CARD>, et nous voulions vous informer que votre IBAN est <IBAN_CODE>, donc si vous souhaitez vérifier les informations, vous pouvez contacter le service client de Morissette - Russel en écrivant à <EMAIL_ADDRESS>.\"",
+    "entities": "[{\"type\": \"EMAIL_ADDRESS\", \"span\": [322, 344], \"raw\": \"voisinalex@example.org\"}, {\"type\": \"CREDIT_CARD\", \"span\": [101, 114], \"raw\": \"4008567682074\"}, {\"type\": \"IBAN_CODE\", \"span\": [166, 193], \"raw\": \"FR9086259562310300922705601\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "2565dbbd-0f6c-47b9-991b-3a2610bc7b80",
+    "raw_text": "Pouvez-vous m'aider à confirmer ma candidature pour le poste de coordinateur de la succursale de Riou, située au 82294 chemin de Saint MarcelBourg ? Vous pouvez me contacter à claude21@example.net pour plus d'informations.",
+    "masked_text": "Pouvez-vous m'aider à confirmer ma candidature pour le poste de coordinateur de la succursale de Riou, située au 82294 chemin de Saint <LOCATION> ? Vous pouvez me contacter à <EMAIL_ADDRESS> pour plus d'informations.",
+    "entities": "[{\"type\": \"EMAIL_ADDRESS\", \"span\": [176, 196], \"raw\": \"claude21@example.net\"}, {\"type\": \"LOCATION\", \"span\": [135, 146], \"raw\": \"MarcelBourg\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "d380db16-e589-40ae-a793-ed4b6c1b47a7",
+    "raw_text": "\"Veuillez confirmer que le paiement de 630449861701 a été effectué pour la réservation de la suite VIP, numéro de vérification BE71631059014380, et veuillez nous indiquer si vous avez besoin d'aide avec l'identification des informations de facturation sur votre carte de crédit.\"",
+    "masked_text": "\"Veuillez confirmer que le paiement de <CREDIT_CARD> a été effectué pour la réservation de la suite VIP, numéro de vérification BE71631059014380, et veuillez nous indiquer si vous avez besoin d'aide avec l'identification des informations de facturation sur votre carte de crédit.\"",
+    "entities": "[{\"type\": \"CREDIT_CARD\", \"span\": [39, 51], \"raw\": \"630449861701\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "a5273292-08d5-45ed-95e5-9c217405f3ba",
+    "raw_text": "Cher Monsieur Dupont, nous avons reçu un acompte de 500€ sur le compte IBAN FR7299495604432260123709677 pour la participation à notre projet de développement d'applications mobiles. Veuillez confirmer cette transaction pour éviter toute retard dans la livraison des prototypes.",
+    "masked_text": "Cher Monsieur Dupont, nous avons reçu un acompte de 500€ sur le compte IBAN <IBAN_CODE> pour la participation à notre projet de développement d'applications mobiles. Veuillez confirmer cette transaction pour éviter toute retard dans la livraison des prototypes.",
+    "entities": "[{\"type\": \"IBAN_CODE\", \"span\": [76, 103], \"raw\": \"FR7299495604432260123709677\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "63d29291-5be6-4438-be25-dcb337d6d133",
+    "raw_text": "Cher M. Roger08, nous avons organisé un atelier de formation sur la gestion des données sensibles dans notre équipe et vous étiez invité comme expert pour partager vos expériences sur la sécurité des informations personnelles. Contactez roger08@example.org pour plus d'informations.",
+    "masked_text": "Cher M. Roger08, nous avons organisé un atelier de formation sur la gestion des données sensibles dans notre équipe et vous étiez invité comme expert pour partager vos expériences sur la sécurité des informations personnelles. Contactez <EMAIL_ADDRESS> pour plus d'informations.",
+    "entities": "[{\"type\": \"EMAIL_ADDRESS\", \"span\": [237, 256], \"raw\": \"roger08@example.org\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "5366868f-ae98-46df-8afe-fd863da37729",
+    "raw_text": "Bonjour, j'ai reçu un appel téléphonique de Pierre Dupont, qui m'a indiqué que son compte PayPal a été déverifié pour une raison non précisée. Son adresse e-mail est le seul moyen de récupérer ses informations de paiement et de mettre à jour les coordonnées de sa carte de crédit : 4600646353174697. Il lui a également appris qu'il devait remplir un formulaire de déclaration d'impôt sur les revenus électroniques, qui devait être envoyé à l'adresse postale suivante : FR5280717279746329256975624 et via courrier postal à IP ADDRESS 81.12.29.97.",
+    "masked_text": "Bonjour, j'ai reçu un appel téléphonique de Pierre Dupont, qui m'a indiqué que son compte PayPal a été déverifié pour une raison non précisée. Son adresse e-mail est le seul moyen de récupérer ses informations de paiement et de mettre à jour les coordonnées de sa carte de crédit : <CREDIT_CARD>. Il lui a également appris qu'il devait remplir un formulaire de déclaration d'impôt sur les revenus électroniques, qui devait être envoyé à l'adresse postale suivante : <IBAN_CODE> et via courrier postal à IP ADDRESS <IP_ADDRESS>.",
+    "entities": "[{\"type\": \"CREDIT_CARD\", \"span\": [282, 298], \"raw\": \"4600646353174697\"}, {\"type\": \"IBAN_CODE\", \"span\": [469, 496], \"raw\": \"FR5280717279746329256975624\"}, {\"type\": \"IP_ADDRESS\", \"span\": [533, 544], \"raw\": \"81.12.29.97\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "1036b6c0-cca8-4b33-bfdb-2099017407ad",
+    "raw_text": "Cher Monsieur Leblanc, nous organisons un atelier de photographie à Saint-Tropez le 15 septembre 2024 à 14h30 pour la présentation de vos oeuvres sous la direction de Madame Dupont (Hulda44@yahoo.com).",
+    "masked_text": "Cher Monsieur Leblanc, nous organisons un atelier de photographie à Saint-Tropez le 15 septembre 2024 à 14h30 pour la présentation de vos oeuvres sous la direction de Madame Dupont (Hulda44@yahoo.com).",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "d38eea99-b344-4393-872d-e1553cd955e5",
+    "raw_text": "Cher Monsieur Dupont, nous vous contacterons bientôt pour discuter des détails de votre futur contrat d'embauche chez Redmond Inc. à 02 97 64 89 57.",
+    "masked_text": "Cher Monsieur Dupont, nous vous contacterons bientôt pour discuter des détails de votre futur contrat d'embauche chez Redmond Inc. à <PHONE_NUMBER>.",
+    "entities": "[{\"type\": \"PHONE_NUMBER\", \"span\": [133, 147], \"raw\": \"02 97 64 89 57\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "cfbd40af-01ee-4cba-a2af-d92de7eaf14b",
+    "raw_text": "Cher Mr. Wembly, nous avons récemment organisé un atelier de formation sur l'utilisation efficace des outils de gestion de projet chez Morissette - Russel, et je suis heureux de vous informer que la session a été une grande réussite à West Shemar, où nous avons pu nous échanger avec votre collègue de bureau Hulda44@yahoo.com.",
+    "masked_text": "Cher Mr. Wembly, nous avons récemment organisé un atelier de formation sur l'utilisation efficace des outils de gestion de projet chez Morissette - Russel, et je suis heureux de vous informer que la session a été une grande réussite à West Shemar, où nous avons pu nous échanger avec votre collègue de bureau Hulda44@yahoo.com.",
+    "entities": "[]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "99bb7ef3-b6bf-46d3-925d-160da53099a8",
+    "raw_text": "Cher Cis, nous avons découvert que votre carte de crédit 180008428132679 a été refusée à la succursale de Producer en raison d'une erreur de paiement. Pour résoudre ce problème, veuillez contacter notre service client au +33 2 52 50 01 39 ou envoyer un email à cbecker@example.net pour obtenir des informations supplémentaires sur les options de paiement alternatives disponibles.",
+    "masked_text": "Cher Cis, nous avons découvert que votre carte de crédit <CREDIT_CARD> a été refusée à la succursale de Producer en raison d'une erreur de paiement. Pour résoudre ce problème, veuillez contacter notre service client au <PHONE_NUMBER> ou envoyer un email à <EMAIL_ADDRESS> pour obtenir des informations supplémentaires sur les options de paiement alternatives disponibles.",
+    "entities": "[{\"type\": \"PHONE_NUMBER\", \"span\": [221, 238], \"raw\": \"+33 2 52 50 01 39\"}, {\"type\": \"EMAIL_ADDRESS\", \"span\": [261, 280], \"raw\": \"cbecker@example.net\"}, {\"type\": \"CREDIT_CARD\", \"span\": [57, 72], \"raw\": \"180008428132679\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "73969c98-eb9d-4838-9332-dddea8aa6f5b",
+    "raw_text": "\"Le directeur du développement logiciel, Élodie83@outlook.com, nous contacte pour discuter des mises à jour de sécurité de notre serveur, hébergé sur l'adresse IP 51.254.133.85, avant la date limite de dépôt prévue pour le projet 'Eclipse'.\"",
+    "masked_text": "\"Le directeur du développement logiciel, Élodie83@outlook.com, nous contacte pour discuter des mises à jour de sécurité de notre serveur, hébergé sur l'adresse IP <IP_ADDRESS>, avant la date limite de dépôt prévue pour le projet 'Eclipse'.\"",
+    "entities": "[{\"type\": \"IP_ADDRESS\", \"span\": [163, 176], \"raw\": \"51.254.133.85\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "b2e4b9e2-63c7-4c92-a626-911412840538",
+    "raw_text": "Cher Monsieur Vashin, nous avons programmé un atelier de création d'objets en 3D à Riverton le 12 avril 2025 à 19h13, au cours duquel vous serez invité à partager vos expériences avec la technologie additive.",
+    "masked_text": "Cher Monsieur Vashin, nous avons programmé un atelier de création d'objets en 3D à Riverton <DATE_TIME>, au cours duquel vous serez invité à partager vos expériences avec la technologie additive.",
+    "entities": "[{\"type\": \"DATE_TIME\", \"span\": [92, 116], \"raw\": \"le 12 avril 2025 à 19h13\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "ca8d3528-c63c-4813-b25a-5ec1e252a506",
+    "raw_text": "Cher Camille Ollivier, nous avons confirmé votre inscription pour le programme d'alphabétisation à West Shemar et vous nous attendez le 15 mars prochain. Veuillez vérifier si vos coordonnées sont à jour : camilleollivier@outlook.com.",
+    "masked_text": "Cher <PERSON>, nous avons confirmé votre inscription pour le programme d'alphabétisation à West Shemar et vous nous attendez le 15 mars prochain. Veuillez vérifier si vos coordonnées sont à jour : camilleollivier@outlook.com.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [5, 21], \"raw\": \"Camille Ollivier\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "ab68ae99-dae7-4ab9-a635-03bd4dbc79d9",
+    "raw_text": "\"Nous sommes ravis de vous informer que Michèle Bouchet, la responsable des ventes, nous a récemment visités au 714, avenue de Le Roux, 16402 Carlierboeuf, en vue d'une importante mise à jour sur les produits disponibles. Pour obtenir plus de détails, il vous suffit de contacter Michèle directement par téléphone au +33 (0)4 73 41 53 77 ou en écrivant un e-mail au plus grand service client disponible, qui est actuellement occupé, mais ils répondront à vos questions dès que possible.\"",
+    "masked_text": "\"Nous sommes ravis de vous informer que <PERSON>, la responsable des ventes, nous a récemment visités au <LOCATION>, en vue d'une importante mise à jour sur les produits disponibles. Pour obtenir plus de détails, il vous suffit de contacter Michèle directement par téléphone au <PHONE_NUMBER> ou en écrivant un e-mail au plus grand service client disponible, qui est actuellement occupé, mais ils répondront à vos questions dès que possible.\"",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [40, 55], \"raw\": \"Michèle Bouchet\"}, {\"type\": \"PHONE_NUMBER\", \"span\": [317, 337], \"raw\": \"+33 (0)4 73 41 53 77\"}, {\"type\": \"LOCATION\", \"span\": [112, 154], \"raw\": \"714, avenue de Le Roux, 16402 Carlierboeuf\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "6c0629ec-3f55-477d-b8a0-307c2093c00c",
+    "raw_text": "Cher Mr. Marianne Breton, notre équipe de rédaction souhaite inviter Madame Breton à un atelier de formation sur la sécurité des données personnelles le 27 juin prochain à Paris, pour discuter de nouveaux développements dans le domaine des systèmes de protection et vous offrir l'opportunité d'échanger vos idées avec notre équipe experte en matière de confidentialité. Contactez-nous à +33 (0)6 28 44 63 86 pour plus de détails sur l'événement.",
+    "masked_text": "Cher Mr. <PERSON>, notre équipe de rédaction souhaite inviter Madame Breton à un atelier de formation sur la sécurité des données personnelles le 27 juin prochain à Paris, pour discuter de nouveaux développements dans le domaine des systèmes de protection et vous offrir l'opportunité d'échanger vos idées avec notre équipe experte en matière de confidentialité. Contactez-nous à <PHONE_NUMBER> pour plus de détails sur l'événement.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [9, 24], \"raw\": \"Marianne Breton\"}, {\"type\": \"PHONE_NUMBER\", \"span\": [387, 407], \"raw\": \"+33 (0)6 28 44 63 86\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "4a87de17-4b37-4cc0-97f3-cbdc6514f951",
+    "raw_text": "Cher Mr. Marguerite de Rodriguez, nous avons reçu votre demande pour obtenir une copie du dossier confidentiel contenant vos informations bancaires, y compris l'IBAN FR0694998075881780580503635 et votre adresse e-mail blondelcatherine@example.org, à fin de réaliser un échange avec votre entreprise.",
+    "masked_text": "Cher Mr. <PERSON>, nous avons reçu votre demande pour obtenir une copie du dossier confidentiel contenant vos informations bancaires, y compris l'IBAN <IBAN_CODE> et votre adresse e-mail <EMAIL_ADDRESS>, à fin de réaliser un échange avec votre entreprise.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [9, 32], \"raw\": \"Marguerite de Rodriguez\"}, {\"type\": \"EMAIL_ADDRESS\", \"span\": [218, 246], \"raw\": \"blondelcatherine@example.org\"}, {\"type\": \"IBAN_CODE\", \"span\": [166, 193], \"raw\": \"FR0694998075881780580503635\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "25cf6002-861e-4151-a143-aaef8e295393",
+    "raw_text": "Cher Monsieur Thibault, nous avons décidé de réserver une table pour deux personnes à 20h30 ce soir chez le restaurant \"Le Coeur de la Mer\" situé rue des Archives 159.174.210.26, où nous organisons un dîner d'information sur les dernières tendances en matière de cybersécurité, pour plus de détails contactez Hulda44@yahoo.com.",
+    "masked_text": "Cher Monsieur Thibault, nous avons décidé de réserver une table pour deux personnes à 20h30 ce soir chez le restaurant \"Le Coeur de la Mer\" situé rue des Archives <IP_ADDRESS>, où nous organisons un dîner d'information sur les dernières tendances en matière de cybersécurité, pour plus de détails contactez Hulda44@yahoo.com.",
+    "entities": "[{\"type\": \"IP_ADDRESS\", \"span\": [163, 177], \"raw\": \"159.174.210.26\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "8891f1df-b363-46c6-a978-dfa9c2c29702",
+    "raw_text": "Cher Monsieur Thibault, nous avons organisé un atelier de photosynthèse pour promouvoir l'agriculture urbaine à Saint-Raphaël. Votre numéro de téléphone est 0751058714 et vous êtes invité à rejoindre notre équipe pour discuter des détails avec votre ami, Régis, qui a créé une page Instagram : rregis123@outlook.fr",
+    "masked_text": "Cher Monsieur Thibault, nous avons organisé un atelier de photosynthèse pour promouvoir l'agriculture urbaine à Saint-Raphaël. Votre numéro de téléphone est <PHONE_NUMBER> et vous êtes invité à rejoindre notre équipe pour discuter des détails avec votre ami, Régis, qui a créé une page Instagram : rregis123@outlook.fr",
+    "entities": "[{\"type\": \"PHONE_NUMBER\", \"span\": [157, 167], \"raw\": \"0751058714\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "1212047f-bf5f-46e9-8ba9-8d58d9d2e18f",
+    "raw_text": "Cher Mr. Leblanc, je me réjouis de vous contacter concernant votre application d'emploi chez notre entreprise, à l'adresse email : troux@example.org, où nous examinerons attentivement vos qualifications pour ce poste de responsabilité croissante dans notre équipe commerciale en développement international.",
+    "masked_text": "Cher Mr. Leblanc, je me réjouis de vous contacter concernant votre application d'emploi chez notre entreprise, à l'adresse email : <EMAIL_ADDRESS>, où nous examinerons attentivement vos qualifications pour ce poste de responsabilité croissante dans notre équipe commerciale en développement international.",
+    "entities": "[{\"type\": \"EMAIL_ADDRESS\", \"span\": [131, 148], \"raw\": \"troux@example.org\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "4945bfaa-9af1-4e35-b9c9-1362c837e04e",
+    "raw_text": "Cher Mr. Laurence-Aurélie Valette, nous organisons un atelier de créativité à Buisson le 15 septembre 2025 à l'aide d'une location au 92, chemin Gautier, 76384 Buisson. Contactez theophile16@example.net pour plus de détails sur la participation et les frais associés.",
+    "masked_text": "Cher Mr. <PERSON>, nous organisons un atelier de créativité à Buisson le 15 septembre 2025 à l'aide d'une location au <LOCATION>. Contactez <EMAIL_ADDRESS> pour plus de détails sur la participation et les frais associés.",
+    "entities": "[{\"type\": \"PERSON\", \"span\": [9, 33], \"raw\": \"Laurence-Aurélie Valette\"}, {\"type\": \"EMAIL_ADDRESS\", \"span\": [179, 202], \"raw\": \"theophile16@example.net\"}, {\"type\": \"LOCATION\", \"span\": [134, 167], \"raw\": \"92, chemin Gautier, 76384 Buisson\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "354255c2-8842-496b-aaa2-fbd778e7f9e1",
+    "raw_text": "Cher Monsieur Dupont, nous avons répondu à votre demande de connexion aux coordonnées de compte bancaire 31805 Lévy. Veuillez vérifier le détail de votre dossier dans notre centre de traitement des données du 06 35 79 93 72 et confirmer la date et heure de saisie, 30/06/2024 06:15:04, pour éviter tout risque d'error de saisie et garantir un transfert sécurisé.",
+    "masked_text": "Cher Monsieur Dupont, nous avons répondu à votre demande de connexion aux coordonnées de compte bancaire 31805 <LOCATION>. Veuillez vérifier le détail de votre dossier dans notre centre de traitement des données du <PHONE_NUMBER> et confirmer la date et heure de saisie, <DATE_TIME>, pour éviter tout risque d'error de saisie et garantir un transfert sécurisé.",
+    "entities": "[{\"type\": \"PHONE_NUMBER\", \"span\": [209, 223], \"raw\": \"06 35 79 93 72\"}, {\"type\": \"LOCATION\", \"span\": [111, 115], \"raw\": \"Lévy\"}, {\"type\": \"DATE_TIME\", \"span\": [265, 284], \"raw\": \"30/06/2024 06:15:04\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "222488e2-e2fb-42bf-8502-caae09d5fe87",
+    "raw_text": "Cher Mr. Caron, nous avons organisé un atelier de formation sur le management de projet à 2, boulevard Georges Valentin, 91116 Ferreira, en collaboration avec la société anonyme Morissette - Russel. Veuillez contacter caronxavier@example.org pour obtenir plus d'informations sur la date et l'heure prévues.",
+    "masked_text": "Cher Mr. Caron, nous avons organisé un atelier de formation sur le management de projet à <LOCATION>, en collaboration avec la société anonyme Morissette - Russel. Veuillez contacter <EMAIL_ADDRESS> pour obtenir plus d'informations sur la date et l'heure prévues.",
+    "entities": "[{\"type\": \"EMAIL_ADDRESS\", \"span\": [218, 241], \"raw\": \"caronxavier@example.org\"}, {\"type\": \"LOCATION\", \"span\": [90, 135], \"raw\": \"2, boulevard Georges Valentin, 91116 Ferreira\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "588ddc2e-135c-43e7-b96c-51194aa64b87",
+    "raw_text": "Cher Mr. benjaminchauvin@example.net, nous avons récemment réalisé un dépôt de données sur le site web 58.175.149.49 pour améliorer la confidentialité de nos informations financières, en utilisant un IBAN code unique : FR4086364255919298976188796 et nous vous invitons à contacter notre service client pour plus d'informations sur les modifications apportées au compte bancaire.",
+    "masked_text": "Cher Mr. <EMAIL_ADDRESS>, nous avons récemment réalisé un dépôt de données sur le site web <IP_ADDRESS> pour améliorer la confidentialité de nos informations financières, en utilisant un IBAN code unique : <IBAN_CODE> et nous vous invitons à contacter notre service client pour plus d'informations sur les modifications apportées au compte bancaire.",
+    "entities": "[{\"type\": \"EMAIL_ADDRESS\", \"span\": [9, 36], \"raw\": \"benjaminchauvin@example.net\"}, {\"type\": \"IBAN_CODE\", \"span\": [219, 246], \"raw\": \"FR4086364255919298976188796\"}, {\"type\": \"IP_ADDRESS\", \"span\": [103, 116], \"raw\": \"58.175.149.49\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "92314155-2013-4448-8ae7-174c45a732b6",
+    "raw_text": "Cher M. Wembly, nous avons planifié un atelier de développement logiciel pour la semaine prochaine à 10/09/2024 19:11:04 dans une salle de conférence située à l'emplacement physique 149.195.182.69, à West Haven.",
+    "masked_text": "Cher M. Wembly, nous avons planifié un atelier de développement logiciel pour la semaine prochaine à <DATE_TIME> dans une salle de conférence située à l'emplacement physique 149.195.182.69, à West Haven.",
+    "entities": "[{\"type\": \"DATE_TIME\", \"span\": [101, 120], \"raw\": \"10/09/2024 19:11:04\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "ffb54388-1dd8-425e-afda-b53ae2ce9523",
+    "raw_text": "Je m'excuse, mais je ne peux pas générer de phrases contenant des informations personnelles réelles, comme des numéros de carte de crédit ou des adresses IP. Cela pourrait potentiellement compromettre la sécurité et la confidentialité des utilisateurs.\n\nCependant, je peux vous fournir une phrase avec des informations fictives qui respectent les règles d'or. Voici une proposition :\n\nLe système informatique a déclenché une alerte pour l'adresse IP 190.169.115.242, et nous devons vérifier la carte de crédit associée, le numéro 4933684783770, afin de prévenir tout abus potentiel.\n\nSi vous souhaitez que je génère une autre phrase, je peux essayer de créer un contexte différent avec des informations fictives qui ne concernent pas les éléments spécifiques que vous avez mentionnés.",
+    "masked_text": "Je m'excuse, mais je ne peux pas générer de phrases contenant des informations personnelles réelles, comme des numéros de carte de crédit ou des adresses IP. Cela pourrait potentiellement compromettre la sécurité et la confidentialité des utilisateurs.\n\nCependant, je peux vous fournir une phrase avec des informations fictives qui respectent les règles d'or. Voici une proposition :\n\nLe système informatique a déclenché une alerte pour l'adresse IP <IP_ADDRESS>, et nous devons vérifier la carte de crédit associée, le numéro <CREDIT_CARD>, afin de prévenir tout abus potentiel.\n\nSi vous souhaitez que je génère une autre phrase, je peux essayer de créer un contexte différent avec des informations fictives qui ne concernent pas les éléments spécifiques que vous avez mentionnés.",
+    "entities": "[{\"type\": \"CREDIT_CARD\", \"span\": [530, 543], \"raw\": \"4933684783770\"}, {\"type\": \"IP_ADDRESS\", \"span\": [450, 465], \"raw\": \"190.169.115.242\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  },
+  {
+    "id": "41312f5d-3d19-43f7-ba67-96dd4ee632c8",
+    "raw_text": "Cher PDelaTtre, nous avons découvert que le numéro de carte de crédit 2532500103758241 a été utilisé pour acheter des billets VIP aux jeux de rugby à domicile de Morissette-Russel ce samedi.",
+    "masked_text": "Cher PDelaTtre, nous avons découvert que le numéro de carte de crédit <CREDIT_CARD> a été utilisé pour acheter des billets VIP aux jeux de rugby à domicile de Morissette-Russel ce samedi.",
+    "entities": "[{\"type\": \"CREDIT_CARD\", \"span\": [70, 86], \"raw\": \"2532500103758241\"}]",
+    "locale": "fr_FR",
+    "source": "ollama-local"
+  }
+]

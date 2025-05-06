@@ -32,7 +32,11 @@ def mask_entities(raw_text: str, pii_values: dict):
     for label, val in pii_values.items():
         if label == "DATE_TIME":
             # Handle flexible matching for date reformulations
-            date_matches = match_datetime_in_text(val, raw_text)
+            try:
+                date_matches = match_datetime_in_text(val, raw_text)
+            except Exception as e:
+                print(f"⚠️ Error in match_datetime_in_text for value '{val}': {e}")
+                date_matches = []
             if date_matches:
                 phrase, _ = date_matches[0]
                 start = raw_text.find(phrase)
@@ -107,18 +111,23 @@ def mask_entities(raw_text: str, pii_values: dict):
 
     return masked, mappings
 
+
 def match_datetime_in_text(pii_dt: str, text: str):
     """Find reformulated date/time in French text matching the given PII date within a short delta."""
-    
+
     # Parse the known PII datetime into a datetime object
     target = datetime.strptime(pii_dt, "%d/%m/%Y %H:%M:%S")
     found = []
 
     # Use dateparser to extract date expressions from the text (supports French)
     results = search_dates(text, languages=["fr"])
-    
+
+    # If search_dates finds nothing, fall back to direct string match
     if not results:
-        return []
+        # Fallback: direct string match
+        if pii_dt in text:
+            found.append((pii_dt, target))
+        return found
 
     # For each date expression detected
     for phrase, parsed_dt in results:
@@ -126,10 +135,23 @@ def match_datetime_in_text(pii_dt: str, text: str):
             continue
 
         # Compute the difference in seconds between the parsed date and the PII date
-        delta = abs((parsed_dt - target).total_seconds())
+        try:
+            delta = abs((parsed_dt - target).total_seconds())
+        except TypeError:
+            # Handle naive/aware datetime mismatch
+            if parsed_dt.tzinfo is not None and target.tzinfo is None:
+                parsed_dt = parsed_dt.replace(tzinfo=None)
+            elif parsed_dt.tzinfo is None and target.tzinfo is not None:
+                target = target.replace(tzinfo=None)
+            delta = abs((parsed_dt - target).total_seconds())
         # If within a day, consider it a match
-        if delta < 86400 :
+        if delta < 86400:
             found.append((phrase, parsed_dt))
 
+    # Fallback: if still nothing found, check for direct string match
+    if not found and pii_dt in text:
+        found.append((pii_dt, target))
+
     return found
+
 
